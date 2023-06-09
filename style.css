@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=Poppins:ital,wght@1,300;1,500;1,800&family=Roboto:ital,wght@1,400;1,900&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+
+}
+
+.menu{
+    background-color: black;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+ul, li, a {
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    margin-left: 10px;
+    color: white;
+}
+
+
+.conteiner{
+    width: 1366px;
+    margin: 0 auto 0 auto;
+}
+
+.articles{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-family: 'Roboto', sans-serif;
+}
+
+.articles article img{
+    width: 100%;
+}
+
+.articles article{
+    width: 30%;
+}
+
+h2{
+    margin-bottom: 10px;
+}
+
+#esporte{
+    background-color: aquamarine;
+}
+
+#economy{
+    background-color: blueviolet;
+}
+
+#anime{
+    background-color: #c78bfa ;
+}
+
+#filmes img{
+    width: 300px;
+    height: 200px;
+}
+
+#filmes{
+    background-color: bisque;
+}
+
+.articles a{
+    color: rgb(13, 73, 238);
+}
